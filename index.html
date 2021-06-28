@@ -73,7 +73,7 @@
           </div>
 
           <div class="col-12 col-md-10 main-menu">
-            <nav class="site-navigation position-relative text-center" role="navigation">
+            <nav class="site-navigation position-relative text-left" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
@@ -100,14 +100,14 @@
 
           <div class="col-md-12" style="position: relative;" data-aos="fade-up">
             
-            <img src="images/landing_1.png" alt="Image" class="img-fluid img-absolute mt-5 pt-5">
+            <img src="images/landing_1.png" alt="Image" class="img-fluid img-absolute mt-5 pt-5 w-50">
 
             <div class="row mb-4">
               <div class="col-lg-4 mr-auto">
                 <h1>¿Necesitás digitalizarte?</h1>
                 <p class="mb-5"></p>
                 <div>
-                  <a href="#" class="btn btn-primary mr-2 mb-2">Contános tu idea</a>
+                  <a href="https://api.whatsapp.com/send?phone=5491121788989" class="btn btn-primary mr-2 mb-2">Contános tu idea</a>
                 </div>
               </div>
               
@@ -148,7 +148,8 @@
                 <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
               </div>
               <div>
-                <h3>Diseño grafico</h3>
+                <h3>Traducciones ES / EN
+                  Públicas y no públicas</h3>
                 
               </div>
             </div>
@@ -159,7 +160,7 @@
                 <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
               </div>
               <div>
-                <h3>UX/UI</h3>
+                <h3>Diseño grafico & UX/UI</h3>
                 
               </div>
             </div>
@@ -295,7 +296,7 @@
         </div>
         <div class="row mb-5">
           <div class="col-lg-6">
-            <img src="images/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+            <img src="images/digitaloffice.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
           </div>
           <div class="col-lg-5 ml-auto pl-lg-5">
             <h2 class="text-black mb-4">En Digital Plus</h2>
@@ -408,7 +409,7 @@
     </div>
 
     <!-- Form -->
-    <!-- <div class="site-section bg-light" id="contact-section">
+   <div class="site-section bg-light" id="contact-section"> -->
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -420,14 +421,14 @@
 
             
 
-            <form action="#" class="p-5 bg-white">
+            <form method="POST" action="enviar2.php" class="p-5 bg-white" id="contact-form" name="contact-form">
               
               <h2 class="h4 text-black mb-5">Contacto</h2> 
 
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Nombre</label>
-                  <input type="text" id="fname" class="form-control rounded-0">
+                  <input type="text" id="fname" class="form-control rounded-0" name="nombre" required>
                 </div>
               </div>
 
@@ -435,7 +436,7 @@
                 
                 <div class="col-md-12">
                   <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control rounded-0">
+                  <input type="email" id="email" class="form-control rounded-0" name="email">
                 </div>
               </div>
 
@@ -450,7 +451,7 @@
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-black" for="message">Mensaje</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder=""></textarea>
+                  <textarea name="mensaje" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder=""></textarea>
                 </div>
               </div>
 
@@ -467,7 +468,7 @@
         </div>
         
       </div>
-    </div> -->
+    </div> 
 
     <!-- Footer -->
     <div class="footer py-5 border-top text-center">
@@ -475,9 +476,9 @@
         <div class="row mb-5">
           <div class="col-12">
             <p class="mb-0">
-              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+              <!-- <a href="#" class="p-3"><span class="icon-facebook"></span></a>
               <a href="#" class="p-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="p-3"><span class="icon-instagram"></span></a> -->
             </p>
           </div>
         </div>
